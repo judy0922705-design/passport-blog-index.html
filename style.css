@@ -1,3 +1,112 @@
-:root{--bg:#fcfaf7;--paper:#fff;--cream:#f6f1eb;--line:#eee5dc;--main:#b8927c;--main2:#d6bfad;--text:#5d5148;--title:#3f352f;--muted:#9a8d84;--shadow:0 18px 45px rgba(88,70,55,.12)}
-*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:"Noto Sans TC","Microsoft JhengHei",sans-serif;background:var(--bg);color:var(--text);line-height:2}.site-header{background:rgba(252,250,247,.92);backdrop-filter:blur(12px);border-bottom:1px solid var(--line);position:sticky;top:0;z-index:50}.header-inner{max-width:1180px;margin:auto;height:78px;padding:0 24px;display:flex;align-items:center;justify-content:space-between}.logo{text-decoration:none;color:var(--title);font-size:25px;font-weight:800;letter-spacing:.06em}.main-nav a,.mobile-nav a{text-decoration:none;color:var(--text);font-size:15px;margin-left:28px}.main-nav a:hover,.toc a:hover{color:var(--main)}.menu-btn{display:none;border:0;background:var(--cream);color:var(--title);border-radius:999px;padding:8px 13px;font-size:20px}.mobile-nav{display:none;padding:10px 24px 20px;background:var(--paper);border-bottom:1px solid var(--line)}.mobile-nav.open{display:flex;flex-direction:column;gap:10px}.breadcrumb{max-width:1180px;margin:28px auto 0;padding:0 24px;color:var(--muted);font-size:14px}.breadcrumb span{margin:0 10px}.layout{max-width:1180px;margin:34px auto 90px;padding:0 24px;display:grid;grid-template-columns:minmax(0,1fr)260px;gap:50px;align-items:start}.article{background:var(--paper);border:1px solid var(--line);border-radius:30px;padding:58px;box-shadow:var(--shadow)}.article-hero{text-align:center;padding:22px 0 34px}.eyebrow{text-transform:uppercase;letter-spacing:.18em;color:var(--main);font-size:13px;font-weight:700;margin:0 0 8px}.category{display:inline-block;background:var(--cream);border:1px solid var(--line);border-radius:999px;color:var(--main);padding:5px 18px;font-weight:700;margin:0 0 18px}.article h1{font-size:44px;line-height:1.35;color:var(--title);margin:0}.article h2{font-size:32px;line-height:1.45;color:var(--title);font-weight:500;margin:8px 0 20px}.date{color:var(--muted);font-size:15px;margin:0}.main-image,.article figure img{width:100%;display:block;border-radius:26px;box-shadow:0 16px 38px rgba(88,70,55,.14);cursor:pointer}.main-image{margin:10px 0 60px}.content-section{margin:74px 0}.article p{font-size:18px;margin:0 0 22px}.article h3{font-size:29px;color:var(--title);margin:0 0 24px;line-height:1.45;position:relative;padding-top:22px}.article h3:before{content:"";position:absolute;top:0;left:0;width:72px;height:5px;border-radius:99px;background:linear-gradient(90deg,var(--main),var(--main2))}.soft-box{background:var(--cream);border:1px solid var(--line);border-radius:24px;padding:26px 32px;margin:28px 0}.soft-box ul{margin:0;padding-left:22px}.soft-box li{font-size:18px;margin:8px 0}figure{margin:36px 0 0}figcaption{text-align:center;color:var(--muted);font-size:14px;margin-top:12px}.cta-card{background:linear-gradient(135deg,#fbf3ec,#fffaf2);border:1px solid var(--line);border-radius:30px;padding:42px;text-align:center;margin:82px 0 30px}.cta-card h3:before{left:50%;transform:translateX(-50%)}.cta-card a{display:inline-block;margin-top:14px;padding:13px 34px;border-radius:999px;background:var(--main);color:white;text-decoration:none;font-weight:700;box-shadow:0 10px 25px rgba(184,146,124,.26)}.cta-card a:hover{background:#9f7862}.note{font-size:14px!important;color:var(--muted);border-top:1px solid var(--line);padding-top:26px}.toc{position:sticky;top:110px;background:rgba(255,255,255,.86);backdrop-filter:blur(10px);border:1px solid var(--line);border-radius:24px;padding:26px;box-shadow:var(--shadow)}.toc p{margin:0 0 12px;color:var(--title);font-weight:800}.toc a{display:block;text-decoration:none;color:var(--text);font-size:15px;padding:10px 0;border-bottom:1px solid var(--line)}.footer{background:var(--cream);border-top:1px solid var(--line);color:var(--muted);text-align:center;padding:38px 20px}.top-btn{position:fixed;right:24px;bottom:24px;width:48px;height:48px;border:0;border-radius:50%;background:var(--main);color:white;font-weight:800;box-shadow:var(--shadow);display:none;cursor:pointer}.top-btn.show{display:block}.image-overlay{position:fixed;inset:0;background:rgba(44,35,30,.86);display:flex;align-items:center;justify-content:center;z-index:999;padding:24px}.image-overlay img{max-width:92%;max-height:92%;border-radius:20px}.reveal{opacity:0;transform:translateY(26px);transition:.8s ease}.reveal.visible{opacity:1;transform:translateY(0)}
-@media(max-width:900px){.main-nav{display:none}.menu-btn{display:block}.layout{display:block;margin-top:22px}.toc{display:none}.article{padding:34px 22px;border-radius:24px}.article h1{font-size:32px}.article h2{font-size:24px}.article h3{font-size:24px}.article p,.soft-box li{font-size:16px}.content-section{margin:56px 0}.header-inner{height:68px}.logo{font-size:21px}.main-image,.article figure img{border-radius:18px}}
+<div style="margin-top:20px;">
+
+    <ul style="font-size:20px; line-height:250%;">
+
+        <li>
+            <b>定義</b>
+            <p style="font-size:16px; line-height:200%; margin-top:10px;">
+                已持有護照且效期不足 1 年者，即可透過「有條件式線上申辦系統」辦理換發護照。
+                （舊制須護照效期剩餘 6 個月內才能申辦。）
+            </p>
+        </li>
+
+        <li style="margin-top:30px;">
+            <b>新制與舊制差異</b>
+            <img src="https://www.sk858.com.tw/DocsRoot/Images/share/comparison.png"
+                 alt=""
+                 style="width:100%; border-radius:10px; margin:15px 0;">
+        </li>
+
+        <li style="margin-top:30px; list-style:none;">
+            <p style="font-size:18px; line-height:200%;">
+                目前符合線上申換資格者，須符合以下條件：
+            </p>
+
+            <div style="background:#F8F3EE; border:1px solid #E8DDD1; border-radius:24px; padding:35px 40px; margin:20px 0;">
+                <ul style="font-size:16px; line-height:250%; margin:0; padding-left:24px;">
+                    <li>設有戶籍之成年國民</li>
+                    <li>護照逾期或效期剩餘未滿 1 年</li>
+                    <li>個人基本資料未變更（例如：姓名、移簽等）</li>
+                </ul>
+            </div>
+
+            <p style="font-size:16px; line-height:200%;">
+                若為首次申辦護照、未滿 18 歲、護照遺失，或曾辦理姓名等個人資料變更者，
+                仍須親自前往臨櫃辦理。
+            </p>
+        </li>
+
+        <li style="margin-top:30px;">
+            <b>線上申辦流程</b>
+            <img src="https://www.sk858.com.tw/DocsRoot/Images/share/application-process.png"
+                 alt=""
+                 style="width:100%; border-radius:10px; margin:15px 0;">
+            <p style="font-size:16px; line-height:200%;">
+                線上申辦流程包含資格確認、身分驗證（自然人憑證或健保卡）、MyData 資料授權、
+                線上繳納規費，審核通過後，再依通知至指定地點領取新護照。
+            </p>
+        </li>
+
+        <li style="margin-top:30px;">
+            <b>為什麼需要自然人憑證？</b>
+            <img src="https://www.sk858.com.tw/DocsRoot/Images/share/natural-id.png"
+                 alt=""
+                 style="width:100%; border-radius:10px; margin:15px 0;">
+            <p style="font-size:16px; line-height:200%;">
+                自然人憑證具有電子簽章功能，可用於驗證申請人身分，
+                提升線上申辦護照的安全性與便利性。
+            </p>
+        </li>
+
+        <li style="margin-top:30px;">
+            <b>領照時忘記帶現持護照怎麼辦？</b>
+            <img src="https://www.sk858.com.tw/DocsRoot/Images/share/passport.png"
+                 alt=""
+                 style="width:100%; border-radius:10px; margin:15px 0;">
+            <p style="font-size:16px; line-height:200%;">
+                若現持護照已逾期，領照時通常不需攜帶；若仍在有效期限內，
+                則應攜帶現持護照，以利順利領取新護照。
+            </p>
+        </li>
+
+    </ul>
+
+    <p style="font-size:16px; line-height:200%; margin-top:20px;">
+        <span style="background-image:linear-gradient(transparent 60%, #ffeeb2 60%); background-size:100% 100%; background-repeat:no-repeat;">
+            <b>護照相關換發資格及最新規定，請依外交部領事事務局官網公告為準；保險保障內容、承保範圍及理賠條件，請依保單條款約定辦理。</b>
+        </span>
+    </p>
+
+</div>
+
+<div style="margin-top:20px; width:100%; background-color:#fff8de; padding:20px; border-radius:10px;">
+    <div style="text-align:center;">
+        <h3 class="hidden-xs" style="font-size:28px; color:#c58103;">
+            <b>新光旅遊險，全球旅行的安心首選！</b>
+        </h3>
+        <h3 class="hidden-lg hidden-md hidden-sm" style="font-size:24px; color:#c58103;">
+            <b>新光旅遊險，全球旅行的安心首選！</b>
+        </h3>
+    </div>
+
+    <div style="margin-top:20px;">
+        <p style="font-size:16px; line-height:200%;">
+            無論短期度假、長程旅行還是商務出差，<b>突發狀況隨時可能發生</b>。
+            出發前，別忘了為自己加上一份全方位的保障，讓旅程更輕鬆、安心。<br>
+            新光產險「<span style="color:#D90D1E;"><b>海外旅遊險</b></span>」提供：
+        </p>
+
+        <ul style="font-size:16px; line-height:200%;">
+            <li><b>全方位守護</b>：旅平險＋不便險，依需求自由搭配，保障靈活又完整</li>
+            <li><b>海外突發疾病</b>：新增涵蓋 COVID-19、新型流感、腸病毒等常見傳染病</li>
+            <li><b>海外急難救助</b>：最高給付 <b>USD $100,000</b>，提供緊急運送、遺體處理、醫療陪伴</li>
+            <li><b>航班延誤快速理賠</b>：輸入航班資訊即可自動啟動理賠流程，讓延誤也不慌</li>
+            <li><b>線上投保超方便</b>：隨時隨地完成投保，出發前一小時也來得及</li>
+        </ul>
+
+        <p style="font-size:16px; line-height:200%;">
+            出國玩得安心，準備無遺憾！<br>
+            <b>點擊下方立即投保，讓新光旅遊險陪你每一步，放心享受每一段專屬旅程！</b>
+        </p>
+    </div>
+</div>
