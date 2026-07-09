@@ -1,10 +1,174 @@
-<div style="margin-top:20px;">
-    <p style="font-size:16px; line-height:200%;">
-        已持有護照且效期不足 1 年者，可透過「有條件式線上申辦系統」辦理換發護照。
-        相較於舊制須效期剩餘 6 個月內才能申辦，新制讓有出國需求的民眾能更彈性地提前安排換照。
-    </p>
+<style>
+    @media (max-width: 767px) {
+        .blog {
+            margin-top: -20px !important;
+        }
 
-    <p style="font-size:16px; line-height:200%;">
-        護照相關換發資格及最新規定，請依外交部領事事務局官網公告為準；保險保障內容、承保範圍及理賠條件，請依保單條款約定辦理。
-    </p>
-</div>
+        .blog-content {
+            padding: 40px 30px !important;
+        }
+
+        .blog-table {
+            padding: 0 !important;
+        }
+    }
+</style>
+
+<main>
+    <section class="blog" style="background-color:#fafafa; padding:10px 0; margin-top:-20px;">
+        <div class="container blog-content" style="background-color:#fff; padding:40px 80px; border-radius:20px; box-shadow:0 0 15px rgba(37,11,73,.1); display:flex; flex-direction:column; justify-content:center; align-items:center;">
+
+            <div style="margin-top:20px; width:100%;">
+
+                <ul style="font-size:20px; line-height:250%; padding-left:24px;">
+
+                    <li>
+                        <b>定義</b>
+
+                        <p style="font-size:16px; line-height:200%; margin-top:10px;">
+                            已持有護照且效期不足 1 年者，可透過「有條件式線上申辦系統」辦理換發護照。
+                            相較於舊制須效期剩餘 6 個月內才能申辦，新制讓有出國需求的民眾能更彈性地提前安排換照。
+                        </p>
+                    </li>
+
+                    <li style="margin-top:30px;">
+                        <b>新制與舊制差異</b>
+
+                        <img src="https://www.sk858.com.tw/DocsRoot/Images/share/comparison.png"
+                            alt="護照新制與舊制差異"
+                            style="width:100%; border-radius:10px; margin:15px 0;">
+                    </li>
+
+                    <li style="margin-top:30px; list-style:none;">
+
+                        <p style="font-size:18px; line-height:200%; margin-bottom:15px;">
+                            目前符合線上申換資格者，須符合以下條件：
+                        </p>
+
+                        <div style="background:#F8F3EE; border:1px solid #E8DDD1; border-radius:24px; padding:35px 40px; margin:20px 0;">
+
+                            <ul style="font-size:16px; line-height:250%; margin:0; padding-left:24px;">
+                                <li>設有戶籍之成年國民</li>
+                                <li>護照已逾期，或效期剩餘未滿 1 年</li>
+                                <li>個人基本資料未變更，例如姓名、身分資料等</li>
+                            </ul>
+
+                        </div>
+
+                        <p style="font-size:16px; line-height:200%;">
+                            若為首次申辦護照、未滿 18 歲、護照遺失，或曾辦理姓名等個人資料變更者，
+                            仍須親自前往臨櫃辦理。
+                        </p>
+
+                    </li>
+
+                    <li style="margin-top:30px;">
+                        <b>線上申辦流程</b>
+
+                        <img src="https://www.sk858.com.tw/DocsRoot/Images/share/application-process.png"
+                            alt="護照線上申辦流程"
+                            style="width:100%; border-radius:10px; margin:15px 0;">
+
+                        <p style="font-size:16px; line-height:200%;">
+                            線上申辦流程包含資格確認、身分驗證、MyData 資料授權與線上繳納規費，
+                            經審核通過後，再依通知至指定地點領取新護照。
+                        </p>
+
+                    </li>
+
+                    <li style="margin-top:30px;">
+                        <b>為什麼需要自然人憑證？</b>
+
+                        <img src="https://www.sk858.com.tw/DocsRoot/Images/share/natural-id.png"
+                            alt="自然人憑證說明"
+                            style="width:100%; border-radius:10px; margin:15px 0;">
+
+                        <p style="font-size:16px; line-height:200%;">
+                            自然人憑證具備身分驗證與電子簽章功能，可協助確認申請人身分，
+                            提升線上申辦護照的安全性與便利性。
+                        </p>
+
+                    </li>
+
+                    <li style="margin-top:30px;">
+                        <b>領照時忘記帶現持護照怎麼辦？</b>
+
+                        <img src="https://www.sk858.com.tw/DocsRoot/Images/share/passport.png"
+                            alt="領照注意事項"
+                            style="width:100%; border-radius:10px; margin:15px 0;">
+
+                        <p style="font-size:16px; line-height:200%;">
+                            若現持護照已逾期，領照時通常不需攜帶；若仍在有效期限內，
+                            建議領照時攜帶現持護照，以利順利領取新護照。
+                        </p>
+
+                    </li>
+
+                </ul>
+
+                <p style="font-size:16px; line-height:200%; margin-top:25px;">
+
+                    <span style="background-image:linear-gradient(transparent 60%, #ffeeb2 60%); background-size:100% 100%; background-repeat:no-repeat;">
+
+                        <b>
+                            護照相關換發資格及最新規定，請依外交部領事事務局官網公告為準；
+                            保險保障內容、承保範圍及理賠條件，請依保單條款約定辦理。
+                        </b>
+
+                    </span>
+
+                </p>
+
+            </div>
+
+            <div style="margin-top:30px; width:100%; background-color:#fff8de; padding:24px; border-radius:16px;">
+
+                <div style="text-align:center;">
+
+                    <h3 class="hidden-xs" style="font-size:28px; color:#c58103; line-height:150%;">
+                        <b>新光旅遊險，全球旅行的安心首選！</b>
+                    </h3>
+
+                    <h3 class="hidden-lg hidden-md hidden-sm" style="font-size:24px; color:#c58103; line-height:150%;">
+                        <b>新光旅遊險，全球旅行的安心首選！</b>
+                    </h3>
+
+                </div>
+
+                <div style="margin-top:20px;">
+
+                    <p style="font-size:16px; line-height:200%;">
+                        無論是短期度假、長程旅行，還是商務出差，旅途中都可能遇到突發狀況。
+                        出發前，為自己準備一份合適的旅遊保障，讓行程多一份安心。
+                    </p>
+
+                    <p style="font-size:16px; line-height:200%;">
+                        新光產險「<span style="color:#D90D1E;"><b>海外旅遊險</b></span>」提供：
+                    </p>
+
+                    <ul style="font-size:16px; line-height:220%; padding-left:24px;">
+
+                        <li><b>全方位守護：</b>旅平險與不便險可依需求搭配，保障更彈性。</li>
+
+                        <li><b>海外突發疾病：</b>提供旅途中突發疾病相關保障。</li>
+
+                        <li><b>海外急難救助：</b>協助緊急運送、醫療陪伴等突發情況。</li>
+
+                        <li><b>航班延誤快速理賠：</b>符合條件時，可依保單約定申請理賠。</li>
+
+                        <li><b>線上投保方便：</b>出發前即可線上完成投保，省時又便利。</li>
+
+                    </ul>
+
+                    <p style="font-size:16px; line-height:200%; margin-top:15px;">
+                        出國前做好準備，旅程才能玩得更安心。<br>
+                        <b>立即了解新光旅遊險，為下一趟旅程加上一份保障。</b>
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+</main>
